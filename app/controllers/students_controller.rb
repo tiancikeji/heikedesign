@@ -1,5 +1,6 @@
 #encoding:utf-8
 class StudentsController < ApplicationController
+  before_filter :authenticate_user!, :except=>[:create]
   # GET /students
   # GET /students.json
   def index
