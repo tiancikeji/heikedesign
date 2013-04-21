@@ -7,7 +7,8 @@ vendor/*
 */cache/*
 web/uploads/*
 web/bundles/*
-
+/tmp/*
+/log/*
 # Configuration files
 app/config/parameters.ini
 app/config/parameters.yml
