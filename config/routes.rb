@@ -1,4 +1,7 @@
 Heikedesign::Application.routes.draw do
+  resources :students
+
+
   get "pages/course"
   get "pages/aboutus"
   get "pages/works"
